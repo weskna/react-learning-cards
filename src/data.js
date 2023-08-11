@@ -40,7 +40,7 @@ const data = {
     {
       id: 2,
       link: 'yellow',
-      word: 'yekllow',
+      word: 'yellow',
     },
   ],
 };
