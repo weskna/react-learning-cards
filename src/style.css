@@ -1,0 +1,51 @@
+body {
+  background-color: #272932;
+}
+.card {
+  background-color: #e7ecef;
+  padding: 2rem 3rem;
+  border-radius: 0.25rem;
+  transition: background-color 350ms;
+  cursor: pointer;
+  color: #272932;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 1px 1px 2px #1b1b1b52;
+}
+.card:hover,
+.card--selected {
+  background-color: #0f7173;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+  max-width: 560px;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1.15rem;
+  color: #e7ecef;
+}
+
+.select {
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.select__title {
+  border-bottom: 1px solid #1b1b1b52;
+}
+
+.select__list {
+  position: absolute;
+}
